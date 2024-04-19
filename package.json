@@ -2,10 +2,10 @@
   "name": "demobackend",
   "version": "1.0.0",
   "description": "an app to deploy",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "node",
@@ -17,5 +17,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
